@@ -1,0 +1,6 @@
+{
+  "name": "GAMBLE A BALL",
+  "description": "Game mô phỏng chiến đấu tự động giữa các quả bóng 2D nét vẽ tay kết hợp thu thập, nâng cấp, AI đối thủ và dự đoán kết quả bằng tiền ảo B.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

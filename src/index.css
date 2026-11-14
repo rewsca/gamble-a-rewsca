@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  :root {
+    font-family: 'Chakra Petch', system-ui, -apple-system, sans-serif;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #070709;
+    color: #f8fafc;
+    overflow: hidden;
+    user-select: none;
+  }
+}
+
+.font-hand {
+  font-family: 'Patrick Hand', 'Chakra Petch', cursive, sans-serif;
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
